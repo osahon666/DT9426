@@ -1,0 +1,138 @@
+
+key Features of python
+1. Easy
+When we say the word ‘easy’, we mean it in different contexts
+a. Easy to code
+As we have seen in earlier lessons, Python is very easy to code. Compared to other popular languages like Java and C++, it is easier to code in Python. Anyone can learn python syntax in just a few hours. Though sure, mastering Python requires learning about all its advanced concepts and packages and modules. That takes time. Thus, it is programmer-friendly.
+b. Easy to read
+Being a high-level language, Python code is quite like English. Looking at it, you can tell what the code is supposed to do. Also, since it is dynamically-typed, it mandates indentation. This aids readability
+source-https://data-flair.training/blogs/features-python/
+
+2.Interactive Mode − Python has support for an interactive mode which allows interactive testing and debugging of snippets of code.
+source-https://www.tutorialspoint.com/python/python_overview.htm
+
+3.Portable − Python can run on a wide variety of hardware platforms and has the same interface on all platforms.
+source-https://www.tutorialspoint.com/python/python_overview.htm
+
+Problems faced as a language and ecosystem
+Indentation
+1. This is easily the biggest pitfall in which most novice programmers find themselves. Python understands two kinds of indents in a source file: starting with tab character, and starting with spaces (for eg: 4 spaces == 1 tab). But the catch is that you cannot mix and match i.e. use tab character one some lines and spaces on others, since the Python interpreter will get confused. Usually, this doesn’t create any problems if you use just one text editor (such as Geany, Atom, Notepad++, etc.) with a standard setting for indent. 
+2.Cross import of Modules
+This is a logical goof up that happens if you don’t compartmentalize your functionality across the namespaces and modules properly. A very complex situation arises when you have to import module X in Y, and also module Y in X. A careful design on the part of the programmer goes a long way to avoid this kind of goof up. There are, of course, workarounds to this like doing a selective import only in the functions where its needed.
+3.This is easily the second biggest pitfall a Python dev can fall into. In Python, each source filename (without extension) is also its module name. The most noobish thing to do in Python is to create a source file with a name that conflicts with the Python’s standard modules or namespaces.
+
+SOFTWARES THAT ARE BUILT ON PYTHON
+
+Instagram
+If you love taking photos of your food or a new outfit and posting it online for all of your friends to see, you can thank Python for that ability. Granted, Instagram has both a very powerful app and a website, but the latter runs on Python language. The system allows for users to browse, find and post pictures that they like on the site.
+
+BitTorrent
+BitTorrent has evolved quite a bit in recent years, but its foundation and earlier years were built on Python. When it comes to one of the largest databases of knowledge, media and content, BitTorrent is the way to go. But you wouldn’t be able to get any of those lectures or other legal stuff that you are downloading from BitTorrent, if it wasn’t for Python.
+
+Spotify
+Spotify changed the music game when it allowed you to listen to ad-free music of your choice. This wasn’t a program where you got to select a playlist, but rather full songs that you love, on repeat as many times as you can imagine, if you so desire. But whether you are rocking out to the latest K-Pop song from Psy or a classic jazz tune, you are doing so because Spotify was built on Python.
+
+Hipmunk
+If you love to travel, you have likely come across Hipmunk. And while the site lets you save money on booking your itinerary through Hipmunk, it is Python that keeps everything organized. Python also helps sort the best discounts and rates, so you can get the best packages available.
+SOURCE-https://www.hartmannsoftware.com/Blog/Articles_from_Software_Fans/Most-Famous-Software-Programs-Written-in-Python
+
+RELATIONSHIP BETWEEEN PYTHON AND GEOGRAPHIC INFORMATION SCIENCE 
+1.	Python is a good choice to start for learning GIS programming, as it can be used as a scripting and programming language. In ArcGIS, Python scripting can be used for automating tasks (through running Python scripts), as well as writing applications, such as add-ins. 
+2.	 Python is a scripting language incorporated into many GIS software applications such as ArcGIS and QGIS and is used to automate geoprocessing tasks.  Python scripts are essentially a command-based script containing data types, statements, and functions that make up the geoprocessing instructions.  Python files are denoted with the .py file extension.
+
+
+
+
+
+
+
+PART 2
+#assign variables
+r = 20
+Π = 3.142
+
+#assign formular V = 4/3.Π.r3
+20
+V = 4/3 * Π * (r)**3
+print(str(V) + "  koded")
+
+
+
+
+
+#assign variables
+r = input()
+#assign variable to r
+p = int(r)
+Π = 3.142
+
+#assign formular V = 4/3.Π.r3
+V = 4/3 * Π * (p)**3
+
+print(str(V) + "  koded")
+
+
+
+
+#assign variables
+r = input("radius")
+h = input("height")
+π = 3.142
+
+#assign variables to h and r
+p = int(r)
+z = int(h)
+
+#assign variables as V=πr2h
+
+V = π * (p)**2 * (z)
+
+print(str(V) + "  koded")
+
+
+
+
+#assign variables
+r = input("radius")
+h = input("height")
+π = 3.142
+#assign variables  to h and r
+p = int(r)
+z = int(h)
+#assign variables as V=πr2h/3
+
+V = π * (p)**2 * (z) / 3
+print(str(V) + " koded")
+
+
+
+#assign variables 
+ride1 = input("distance (km)=") 
+a = int(ride1) 
+ride2 =input("distance (km)=") 
+b = int(ride2) 
+f = input("fuel used (litres)=") 
+c = int(f)
+e = (a - b)/c
+
+print(str(e) + "koded")
+
+
+
+#assign variables
+F = input("fahrenhite")
+p = float(F)
+#write formula c = (F) - 32 * 5 / 9
+c = ((p - 32)) * 5 / 9
+print(str(c) + "°C koded")
+
+#assign variables
+C = input("celsius")
+p = float(C)
+#write formula F = (c * 9/5 + 32
+f = ((p * 9) / 5) + 32
+     
+print(str(f) + "°f koded")
+
+
+
