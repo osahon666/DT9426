@@ -1,0 +1,60 @@
+nums = [7,6,3,11,2,12,9]
+high_number = nums [0]
+for i in nums :
+    if 1>=high_number:
+        high_number=1
+print (high_number)
+
+calender = ["jan","feb","mar","apil","may","june","july","aug","sep","oct","nov","dec"]
+season = ["spring", "summer","fall","winter"]
+month = int(input("select option"))
+if month==1:
+    print(calender[0],season[3])
+elif month == 2:
+    print(calender[1],season[3])
+elif month == 3:
+    print(calender[2],season[0])
+elif month == 4:
+    print(calender[3],season[0])
+elif month == 5:
+    print(calender[4],season [0])
+elif month == 6:
+    print(calender[5],season[1])
+elif month == 7:
+    print(calender[6],season[1])
+elif month == 8:
+    print(calender[7],season[1])
+elif month == 9:
+    print(calender[8],season[2])
+elif month == 10:
+    print(calender[9],season[2])
+elif month == 11:
+    print(calender[10],season[2])
+elif month == 12:
+    print(calender[11],season[3])
+else:
+    print ("wrong input,select the right input")
+    
+
+tems = ["pear","orange","banana","tomato","cucumber"]
+
+
+print("Enter corresponding items from list")
+sel_item = input()
+userInput=input("Enter Quantity needed:")
+
+while sel_item in items:
+    if sel_item in items:
+        print("You Entered " + sel_item)
+        print("The quantity is:"+ userInput)
+        break
+    else:
+        print("Sorry Order not available")
+
+nums = [7,6,3,11,2,12,9]
+high_number = nums [0]
+for i in nums :
+    if 1>=high_number:
+        high_number=1
+print (high_number)
+		
