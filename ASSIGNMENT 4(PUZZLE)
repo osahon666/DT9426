@@ -1,0 +1,117 @@
+comtinue_puzzle.
+#Write a Python program that prints all the numbers from 0 to 6 except 3 and 6.
+#Note : Use 'continue' statement. 
+
+for x in range(6):
+    if (x == 3 or x==6):
+        continue
+    print(x,end=' ')
+print("\n")
+
+
+divisors_puzzle
+#Write a Python program to find those numbers which are divisible by 7 and 
+#multiple of 5, between 1500 and 2700 (both included)."
+nl=[]
+for x in range(1500, 2701):
+    if (x%7==0) and (x%5==0):
+        nl.append(str(x))
+print (','.join(nl))
+
+
+fizzbuzz
+for fizzbuzz in range(50):
+    if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
+        print("fizzbuzz")
+        continue
+    elif fizzbuzz % 3 == 0:
+        print("fizz")
+        continue
+    elif fizzbuzz % 5 == 0:
+        print("buzz")
+        continue
+    print(fizzbuzz)
+	
+	
+letter_dict_puzzle.
+#Write a Python program to create a dictionary from a string - it should add 
+#a new key for every letter in the string and the value should hold the count
+#of that letter.
+#Hint - just replace the & symbols with the correct code to make this work - 
+#each & symbol is one letter, digit or symbol
+
+
+input_str = "London is the capital of the United Kingdom"
+
+
+letter_dict = {}
+
+for l in input_str:
+    if l.lower() not in letter_dict.keys():
+        letter_dict[l.lower()] = 1
+    else:
+        letter_dict[l.lower()] += 1
+
+print(letter_dict)
+
+
+Prime test
+#Python program to check if the input number is prime or not
+
+num = 21
+
+#take input from the user
+#num = int(input("Enter a number: "))
+
+#prime numbers are greater than 1
+if num > 1:
+   #check for factors
+   for i in range(2,num):
+       if (num % i) == 0:
+           print(num,"is not a prime number")
+           print(i,"times",num//i,"is",num)
+           break
+   else:
+       print(num,"is a prime number")
+       
+#if input number is less than
+#or equal to 1, it is not prime
+else:
+   print(num,"is not a prime number")
+   
+   
+prime_test_puzzle
+#Write a Python function that takes a number as a parameter and 
+#check the number is prime or not.
+
+#Note : A prime number (or a prime) is a natural number greater than 1 
+#and that has no positive divisors other than 1 and itself.
+   def test_prime(n):
+    if (n==1):
+        return False
+    elif (n==2):
+        return True;
+    else:
+        for x in range(2,n):
+            if(n % x==0):
+                return False
+        return True             
+print(test_prime(9))
+
+
+
+string_case_counter_puzzle
+def string_test(s):
+    d={"UPPER_CASE":0, "LOWER_CASE":0}
+    for c in s:
+        if c.isupper():
+           d["UPPER_CASE"]+=1
+        elif c.islower():
+           d["LOWER_CASE"]+=1
+        else:
+           pass
+    print ("Original String : ", s)
+    print ("No. of Upper case characters : ", d["UPPER_CASE"])
+    print ("No. of Lower case Characters : ", d["LOWER_CASE"])
+
+string_test('The quick Brow Fox')
